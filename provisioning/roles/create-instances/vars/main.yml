@@ -1,0 +1,9 @@
+---
+# vars file for create-instances
+instance_type: t2.medium
+sec_group_name: giropops
+image: ami-0a63f96e85105c6d3
+keypair: aws
+region: us-east-2
+count: 3
+profile: giropops
